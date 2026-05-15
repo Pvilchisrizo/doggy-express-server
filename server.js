@@ -13,6 +13,17 @@ app.get("/small", (req, res) => {
   );
 });
 
+app.get("/medium", (req, res) => {
+  res.send(
+    "🐕 Medium-sized dogs generally weigh between 22 and 60 pounds (10-27 text{ kg) and stand (15-25) inches tall, offering a versatile happy medium between small and large breeds. They are often athletic, active, and highly trainable, making them excellent family companions, hiking partners, or apartment dogs depending on the specific breed."
+  );
+});
+
+app.get("/large", (req, res) => {
+  res.send(
+    "🐕‍🦺 Large dogs are generally defined as breeds weighing between 50 and 100 pounds (23 to 45 kg) and standing over 22 to 24 inches tall at the shoulder. Often characterized as gentle giants, they are typically calm, loyal, and affectionate, yet require substantial space, training, and specialized nutritional care to manage health risks like hip dysplasia and bloat."
+  );
+});
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
