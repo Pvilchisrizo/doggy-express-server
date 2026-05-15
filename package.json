@@ -2,12 +2,21 @@
   "name": "express-server",
   "version": "1.0.0",
   "description": "Simple",
+  "homepage": "https://github.com/Pvilchisrizo/express-server#readme",
+  "bugs": {
+    "url": "https://github.com/Pvilchisrizo/express-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pvilchisrizo/express-server.git"
+  },
   "license": "ISC",
-  "author": "",
+  "author": "Paloma Vilchis Rizo",
   "type": "commonjs",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^5.2.1"
